@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB97C66F2BB1B8BE003020A9 /* PlotTwistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97C66E2BB1B8BE003020A9 /* PlotTwistApp.swift */; };
+		CB97C6712BB1B8BE003020A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97C6702BB1B8BE003020A9 /* ContentView.swift */; };
+		CB97C6732BB1B8C0003020A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB97C6722BB1B8C0003020A9 /* Assets.xcassets */; };
+		CB97C6762BB1B8C0003020A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB97C6752BB1B8C0003020A9 /* Preview Assets.xcassets */; };
+		CB97C6802BB1B8C0003020A9 /* PlotTwistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97C67F2BB1B8C0003020A9 /* PlotTwistTests.swift */; };
+		CB97C68A2BB1B8C0003020A9 /* PlotTwistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97C6892BB1B8C0003020A9 /* PlotTwistUITests.swift */; };
+		CB97C68C2BB1B8C0003020A9 /* PlotTwistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB97C68B2BB1B8C0003020A9 /* PlotTwistUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB97C67C2BB1B8C0003020A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB97C6632BB1B8BE003020A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB97C66A2BB1B8BE003020A9;
+			remoteInfo = PlotTwist;
+		};
+		CB97C6862BB1B8C0003020A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB97C6632BB1B8BE003020A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB97C66A2BB1B8BE003020A9;
+			remoteInfo = PlotTwist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB97C66B2BB1B8BE003020A9 /* PlotTwist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlotTwist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB97C66E2BB1B8BE003020A9 /* PlotTwistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotTwistApp.swift; sourceTree = "<group>"; };
+		CB97C6702BB1B8BE003020A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB97C6722BB1B8C0003020A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB97C6752BB1B8C0003020A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB97C67B2BB1B8C0003020A9 /* PlotTwistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlotTwistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB97C67F2BB1B8C0003020A9 /* PlotTwistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotTwistTests.swift; sourceTree = "<group>"; };
+		CB97C6852BB1B8C0003020A9 /* PlotTwistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlotTwistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB97C6892BB1B8C0003020A9 /* PlotTwistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotTwistUITests.swift; sourceTree = "<group>"; };
+		CB97C68B2BB1B8C0003020A9 /* PlotTwistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotTwistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB97C6682BB1B8BE003020A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB97C6782BB1B8C0003020A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB97C6822BB1B8C0003020A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB97C6622BB1B8BE003020A9 = {
+			isa = PBXGroup;
+			children = (
+				CB97C66D2BB1B8BE003020A9 /* PlotTwist */,
+				CB97C67E2BB1B8C0003020A9 /* PlotTwistTests */,
+				CB97C6882BB1B8C0003020A9 /* PlotTwistUITests */,
+				CB97C66C2BB1B8BE003020A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB97C66C2BB1B8BE003020A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB97C66B2BB1B8BE003020A9 /* PlotTwist.app */,
+				CB97C67B2BB1B8C0003020A9 /* PlotTwistTests.xctest */,
+				CB97C6852BB1B8C0003020A9 /* PlotTwistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB97C66D2BB1B8BE003020A9 /* PlotTwist */ = {
+			isa = PBXGroup;
+			children = (
+				CB97C66E2BB1B8BE003020A9 /* PlotTwistApp.swift */,
+				CB97C6702BB1B8BE003020A9 /* ContentView.swift */,
+				CB97C6722BB1B8C0003020A9 /* Assets.xcassets */,
+				CB97C6742BB1B8C0003020A9 /* Preview Content */,
+			);
+			path = PlotTwist;
+			sourceTree = "<group>";
+		};
+		CB97C6742BB1B8C0003020A9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB97C6752BB1B8C0003020A9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB97C67E2BB1B8C0003020A9 /* PlotTwistTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB97C67F2BB1B8C0003020A9 /* PlotTwistTests.swift */,
+			);
+			path = PlotTwistTests;
+			sourceTree = "<group>";
+		};
+		CB97C6882BB1B8C0003020A9 /* PlotTwistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB97C6892BB1B8C0003020A9 /* PlotTwistUITests.swift */,
+				CB97C68B2BB1B8C0003020A9 /* PlotTwistUITestsLaunchTests.swift */,
+			);
+			path = PlotTwistUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB97C66A2BB1B8BE003020A9 /* PlotTwist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB97C68F2BB1B8C0003020A9 /* Build configuration list for PBXNativeTarget "PlotTwist" */;
+			buildPhases = (
+				CB97C6672BB1B8BE003020A9 /* Sources */,
+				CB97C6682BB1B8BE003020A9 /* Frameworks */,
+				CB97C6692BB1B8BE003020A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlotTwist;
+			productName = PlotTwist;
+			productReference = CB97C66B2BB1B8BE003020A9 /* PlotTwist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB97C67A2BB1B8C0003020A9 /* PlotTwistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB97C6922BB1B8C0003020A9 /* Build configuration list for PBXNativeTarget "PlotTwistTests" */;
+			buildPhases = (
+				CB97C6772BB1B8C0003020A9 /* Sources */,
+				CB97C6782BB1B8C0003020A9 /* Frameworks */,
+				CB97C6792BB1B8C0003020A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB97C67D2BB1B8C0003020A9 /* PBXTargetDependency */,
+			);
+			name = PlotTwistTests;
+			productName = PlotTwistTests;
+			productReference = CB97C67B2BB1B8C0003020A9 /* PlotTwistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB97C6842BB1B8C0003020A9 /* PlotTwistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB97C6952BB1B8C0003020A9 /* Build configuration list for PBXNativeTarget "PlotTwistUITests" */;
+			buildPhases = (
+				CB97C6812BB1B8C0003020A9 /* Sources */,
+				CB97C6822BB1B8C0003020A9 /* Frameworks */,
+				CB97C6832BB1B8C0003020A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB97C6872BB1B8C0003020A9 /* PBXTargetDependency */,
+			);
+			name = PlotTwistUITests;
+			productName = PlotTwistUITests;
+			productReference = CB97C6852BB1B8C0003020A9 /* PlotTwistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB97C6632BB1B8BE003020A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CB97C66A2BB1B8BE003020A9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					CB97C67A2BB1B8C0003020A9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CB97C66A2BB1B8BE003020A9;
+					};
+					CB97C6842BB1B8C0003020A9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CB97C66A2BB1B8BE003020A9;
+					};
+				};
+			};
+			buildConfigurationList = CB97C6662BB1B8BE003020A9 /* Build configuration list for PBXProject "PlotTwist" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB97C6622BB1B8BE003020A9;
+			productRefGroup = CB97C66C2BB1B8BE003020A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB97C66A2BB1B8BE003020A9 /* PlotTwist */,
+				CB97C67A2BB1B8C0003020A9 /* PlotTwistTests */,
+				CB97C6842BB1B8C0003020A9 /* PlotTwistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB97C6692BB1B8BE003020A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB97C6762BB1B8C0003020A9 /* Preview Assets.xcassets in Resources */,
+				CB97C6732BB1B8C0003020A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB97C6792BB1B8C0003020A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB97C6832BB1B8C0003020A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB97C6672BB1B8BE003020A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB97C6712BB1B8BE003020A9 /* ContentView.swift in Sources */,
+				CB97C66F2BB1B8BE003020A9 /* PlotTwistApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB97C6772BB1B8C0003020A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB97C6802BB1B8C0003020A9 /* PlotTwistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB97C6812BB1B8C0003020A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB97C68A2BB1B8C0003020A9 /* PlotTwistUITests.swift in Sources */,
+				CB97C68C2BB1B8C0003020A9 /* PlotTwistUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB97C67D2BB1B8C0003020A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB97C66A2BB1B8BE003020A9 /* PlotTwist */;
+			targetProxy = CB97C67C2BB1B8C0003020A9 /* PBXContainerItemProxy */;
+		};
+		CB97C6872BB1B8C0003020A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB97C66A2BB1B8BE003020A9 /* PlotTwist */;
+			targetProxy = CB97C6862BB1B8C0003020A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CB97C68D2BB1B8C0003020A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB97C68E2BB1B8C0003020A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB97C6902BB1B8C0003020A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlotTwist/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Z582B2QLZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarpbozk.PlotTwist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB97C6912BB1B8C0003020A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PlotTwist/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Z582B2QLZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarpbozk.PlotTwist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB97C6932BB1B8C0003020A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Z582B2QLZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarpbozk.PlotTwistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlotTwist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlotTwist";
+			};
+			name = Debug;
+		};
+		CB97C6942BB1B8C0003020A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Z582B2QLZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarpbozk.PlotTwistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlotTwist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlotTwist";
+			};
+			name = Release;
+		};
+		CB97C6962BB1B8C0003020A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Z582B2QLZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarpbozk.PlotTwistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlotTwist;
+			};
+			name = Debug;
+		};
+		CB97C6972BB1B8C0003020A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Z582B2QLZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sarpbozk.PlotTwistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlotTwist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB97C6662BB1B8BE003020A9 /* Build configuration list for PBXProject "PlotTwist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB97C68D2BB1B8C0003020A9 /* Debug */,
+				CB97C68E2BB1B8C0003020A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB97C68F2BB1B8C0003020A9 /* Build configuration list for PBXNativeTarget "PlotTwist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB97C6902BB1B8C0003020A9 /* Debug */,
+				CB97C6912BB1B8C0003020A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB97C6922BB1B8C0003020A9 /* Build configuration list for PBXNativeTarget "PlotTwistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB97C6932BB1B8C0003020A9 /* Debug */,
+				CB97C6942BB1B8C0003020A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB97C6952BB1B8C0003020A9 /* Build configuration list for PBXNativeTarget "PlotTwistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB97C6962BB1B8C0003020A9 /* Debug */,
+				CB97C6972BB1B8C0003020A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB97C6632BB1B8BE003020A9 /* Project object */;
+}
